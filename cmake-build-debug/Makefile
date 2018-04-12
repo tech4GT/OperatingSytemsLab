@@ -241,6 +241,19 @@ priority/fast:
 .PHONY : priority/fast
 
 #=============================================================================
+# Target rules for targets named fileManip
+
+# Build rule for target.
+fileManip: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fileManip
+.PHONY : fileManip
+
+# fast build rule for target.
+fileManip/fast:
+	$(MAKE) -f CMakeFiles/fileManip.dir/build.make CMakeFiles/fileManip.dir/build
+.PHONY : fileManip/fast
+
+#=============================================================================
 # Target rules for targets named Program1
 
 # Build rule for target.
@@ -523,6 +536,33 @@ Practical6/diningPhilosopher.c.s:
 	$(MAKE) -f CMakeFiles/diningPhilosopher.dir/build.make CMakeFiles/diningPhilosopher.dir/Practical6/diningPhilosopher.c.s
 .PHONY : Practical6/diningPhilosopher.c.s
 
+Practical9/fileManip.o: Practical9/fileManip.c.o
+
+.PHONY : Practical9/fileManip.o
+
+# target to build an object file
+Practical9/fileManip.c.o:
+	$(MAKE) -f CMakeFiles/fileManip.dir/build.make CMakeFiles/fileManip.dir/Practical9/fileManip.c.o
+.PHONY : Practical9/fileManip.c.o
+
+Practical9/fileManip.i: Practical9/fileManip.c.i
+
+.PHONY : Practical9/fileManip.i
+
+# target to preprocess a source file
+Practical9/fileManip.c.i:
+	$(MAKE) -f CMakeFiles/fileManip.dir/build.make CMakeFiles/fileManip.dir/Practical9/fileManip.c.i
+.PHONY : Practical9/fileManip.c.i
+
+Practical9/fileManip.s: Practical9/fileManip.c.s
+
+.PHONY : Practical9/fileManip.s
+
+# target to generate assembly for a file
+Practical9/fileManip.c.s:
+	$(MAKE) -f CMakeFiles/fileManip.dir/build.make CMakeFiles/fileManip.dir/Practical9/fileManip.c.s
+.PHONY : Practical9/fileManip.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -568,6 +608,7 @@ help:
 	@echo "... diningPhilosopher"
 	@echo "... srtf"
 	@echo "... priority"
+	@echo "... fileManip"
 	@echo "... Program1"
 	@echo "... Practical1/fcfs.o"
 	@echo "... Practical1/fcfs.i"
@@ -599,6 +640,9 @@ help:
 	@echo "... Practical6/diningPhilosopher.o"
 	@echo "... Practical6/diningPhilosopher.i"
 	@echo "... Practical6/diningPhilosopher.s"
+	@echo "... Practical9/fileManip.o"
+	@echo "... Practical9/fileManip.i"
+	@echo "... Practical9/fileManip.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

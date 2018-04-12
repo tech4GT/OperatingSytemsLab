@@ -10,4 +10,5 @@
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/diningPhilosopher.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/srtf.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/priority.dir
+/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/fileManip.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/Program1.dir

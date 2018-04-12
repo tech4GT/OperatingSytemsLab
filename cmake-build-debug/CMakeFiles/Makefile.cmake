@@ -54,5 +54,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/diningPhilosopher.dir/DependInfo.cmake"
   "CMakeFiles/srtf.dir/DependInfo.cmake"
   "CMakeFiles/priority.dir/DependInfo.cmake"
+  "CMakeFiles/fileManip.dir/DependInfo.cmake"
   "CMakeFiles/Program1.dir/DependInfo.cmake"
   )
