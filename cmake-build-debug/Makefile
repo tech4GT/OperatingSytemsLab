@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named criticalSection
+
+# Build rule for target.
+criticalSection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 criticalSection
+.PHONY : criticalSection
+
+# fast build rule for target.
+criticalSection/fast:
+	$(MAKE) -f CMakeFiles/criticalSection.dir/build.make CMakeFiles/criticalSection.dir/build
+.PHONY : criticalSection/fast
+
+#=============================================================================
 # Target rules for targets named priorityPreemptive
 
 # Build rule for target.
@@ -363,6 +376,33 @@ Practical2/srtf.c.s:
 	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/Practical2/srtf.c.s
 .PHONY : Practical2/srtf.c.s
 
+Practical3/criticalSection.o: Practical3/criticalSection.c.o
+
+.PHONY : Practical3/criticalSection.o
+
+# target to build an object file
+Practical3/criticalSection.c.o:
+	$(MAKE) -f CMakeFiles/criticalSection.dir/build.make CMakeFiles/criticalSection.dir/Practical3/criticalSection.c.o
+.PHONY : Practical3/criticalSection.c.o
+
+Practical3/criticalSection.i: Practical3/criticalSection.c.i
+
+.PHONY : Practical3/criticalSection.i
+
+# target to preprocess a source file
+Practical3/criticalSection.c.i:
+	$(MAKE) -f CMakeFiles/criticalSection.dir/build.make CMakeFiles/criticalSection.dir/Practical3/criticalSection.c.i
+.PHONY : Practical3/criticalSection.c.i
+
+Practical3/criticalSection.s: Practical3/criticalSection.c.s
+
+.PHONY : Practical3/criticalSection.s
+
+# target to generate assembly for a file
+Practical3/criticalSection.c.s:
+	$(MAKE) -f CMakeFiles/criticalSection.dir/build.make CMakeFiles/criticalSection.dir/Practical3/criticalSection.c.s
+.PHONY : Practical3/criticalSection.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -397,6 +437,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... criticalSection"
 	@echo "... priorityPreemptive"
 	@echo "... roundRobin"
 	@echo "... edit_cache"
@@ -423,6 +464,9 @@ help:
 	@echo "... Practical2/srtf.o"
 	@echo "... Practical2/srtf.i"
 	@echo "... Practical2/srtf.s"
+	@echo "... Practical3/criticalSection.o"
+	@echo "... Practical3/criticalSection.i"
+	@echo "... Practical3/criticalSection.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
