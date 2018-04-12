@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mac/Desktop/OsPracticals/Practical6/diningPhilosopher.c
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+semaphore.h
+-
+unistd.h
+-
+pthread.h
+-
+semaphore.h
+-
+stdio.h
+-
+unistd.h
+-
+

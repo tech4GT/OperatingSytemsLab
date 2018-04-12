@@ -51,6 +51,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OsPracticals.dir/DependInfo.cmake"
   "CMakeFiles/priorityPreemptive.dir/DependInfo.cmake"
   "CMakeFiles/roundRobin.dir/DependInfo.cmake"
+  "CMakeFiles/diningPhilosopher.dir/DependInfo.cmake"
   "CMakeFiles/srtf.dir/DependInfo.cmake"
   "CMakeFiles/priority.dir/DependInfo.cmake"
   "CMakeFiles/Program1.dir/DependInfo.cmake"

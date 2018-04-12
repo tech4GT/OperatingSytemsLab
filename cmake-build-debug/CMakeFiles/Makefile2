@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/mac/Desktop/OsPracticals/cmake-build-debug
 CMakeFiles/readerWriter.dir/all:
 	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/depend
 	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target readerWriter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target readerWriter"
 .PHONY : CMakeFiles/readerWriter.dir/all
 
 # Include target in all.
@@ -103,7 +103,7 @@ clean: CMakeFiles/readerWriter.dir/clean
 CMakeFiles/producerConsumer.dir/all:
 	$(MAKE) -f CMakeFiles/producerConsumer.dir/build.make CMakeFiles/producerConsumer.dir/depend
 	$(MAKE) -f CMakeFiles/producerConsumer.dir/build.make CMakeFiles/producerConsumer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target producerConsumer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target producerConsumer"
 .PHONY : CMakeFiles/producerConsumer.dir/all
 
 # Include target in all.
@@ -177,7 +177,7 @@ clean: CMakeFiles/criticalSection.dir/clean
 CMakeFiles/sjfs.dir/all:
 	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/depend
 	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target sjfs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target sjfs"
 .PHONY : CMakeFiles/sjfs.dir/all
 
 # Include target in all.
@@ -251,7 +251,7 @@ clean: CMakeFiles/OsPracticals.dir/clean
 CMakeFiles/priorityPreemptive.dir/all:
 	$(MAKE) -f CMakeFiles/priorityPreemptive.dir/build.make CMakeFiles/priorityPreemptive.dir/depend
 	$(MAKE) -f CMakeFiles/priorityPreemptive.dir/build.make CMakeFiles/priorityPreemptive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target priorityPreemptive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target priorityPreemptive"
 .PHONY : CMakeFiles/priorityPreemptive.dir/all
 
 # Include target in all.
@@ -288,7 +288,7 @@ clean: CMakeFiles/priorityPreemptive.dir/clean
 CMakeFiles/roundRobin.dir/all:
 	$(MAKE) -f CMakeFiles/roundRobin.dir/build.make CMakeFiles/roundRobin.dir/depend
 	$(MAKE) -f CMakeFiles/roundRobin.dir/build.make CMakeFiles/roundRobin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target roundRobin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target roundRobin"
 .PHONY : CMakeFiles/roundRobin.dir/all
 
 # Include target in all.
@@ -319,13 +319,50 @@ clean: CMakeFiles/roundRobin.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/diningPhilosopher.dir
+
+# All Build rule for target.
+CMakeFiles/diningPhilosopher.dir/all:
+	$(MAKE) -f CMakeFiles/diningPhilosopher.dir/build.make CMakeFiles/diningPhilosopher.dir/depend
+	$(MAKE) -f CMakeFiles/diningPhilosopher.dir/build.make CMakeFiles/diningPhilosopher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target diningPhilosopher"
+.PHONY : CMakeFiles/diningPhilosopher.dir/all
+
+# Include target in all.
+all: CMakeFiles/diningPhilosopher.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/diningPhilosopher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/diningPhilosopher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/diningPhilosopher.dir/rule
+
+# Convenience name for target.
+diningPhilosopher: CMakeFiles/diningPhilosopher.dir/rule
+
+.PHONY : diningPhilosopher
+
+# clean rule for target.
+CMakeFiles/diningPhilosopher.dir/clean:
+	$(MAKE) -f CMakeFiles/diningPhilosopher.dir/build.make CMakeFiles/diningPhilosopher.dir/clean
+.PHONY : CMakeFiles/diningPhilosopher.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/diningPhilosopher.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/srtf.dir
 
 # All Build rule for target.
 CMakeFiles/srtf.dir/all:
 	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/depend
 	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target srtf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target srtf"
 .PHONY : CMakeFiles/srtf.dir/all
 
 # Include target in all.
@@ -362,7 +399,7 @@ clean: CMakeFiles/srtf.dir/clean
 CMakeFiles/priority.dir/all:
 	$(MAKE) -f CMakeFiles/priority.dir/build.make CMakeFiles/priority.dir/depend
 	$(MAKE) -f CMakeFiles/priority.dir/build.make CMakeFiles/priority.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target priority"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target priority"
 .PHONY : CMakeFiles/priority.dir/all
 
 # Include target in all.

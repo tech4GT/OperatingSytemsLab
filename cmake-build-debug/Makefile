@@ -202,6 +202,19 @@ roundRobin/fast:
 .PHONY : roundRobin/fast
 
 #=============================================================================
+# Target rules for targets named diningPhilosopher
+
+# Build rule for target.
+diningPhilosopher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diningPhilosopher
+.PHONY : diningPhilosopher
+
+# fast build rule for target.
+diningPhilosopher/fast:
+	$(MAKE) -f CMakeFiles/diningPhilosopher.dir/build.make CMakeFiles/diningPhilosopher.dir/build
+.PHONY : diningPhilosopher/fast
+
+#=============================================================================
 # Target rules for targets named srtf
 
 # Build rule for target.
@@ -483,6 +496,33 @@ Practical5/readerWriter.c.s:
 	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/Practical5/readerWriter.c.s
 .PHONY : Practical5/readerWriter.c.s
 
+Practical6/diningPhilosopher.o: Practical6/diningPhilosopher.c.o
+
+.PHONY : Practical6/diningPhilosopher.o
+
+# target to build an object file
+Practical6/diningPhilosopher.c.o:
+	$(MAKE) -f CMakeFiles/diningPhilosopher.dir/build.make CMakeFiles/diningPhilosopher.dir/Practical6/diningPhilosopher.c.o
+.PHONY : Practical6/diningPhilosopher.c.o
+
+Practical6/diningPhilosopher.i: Practical6/diningPhilosopher.c.i
+
+.PHONY : Practical6/diningPhilosopher.i
+
+# target to preprocess a source file
+Practical6/diningPhilosopher.c.i:
+	$(MAKE) -f CMakeFiles/diningPhilosopher.dir/build.make CMakeFiles/diningPhilosopher.dir/Practical6/diningPhilosopher.c.i
+.PHONY : Practical6/diningPhilosopher.c.i
+
+Practical6/diningPhilosopher.s: Practical6/diningPhilosopher.c.s
+
+.PHONY : Practical6/diningPhilosopher.s
+
+# target to generate assembly for a file
+Practical6/diningPhilosopher.c.s:
+	$(MAKE) -f CMakeFiles/diningPhilosopher.dir/build.make CMakeFiles/diningPhilosopher.dir/Practical6/diningPhilosopher.c.s
+.PHONY : Practical6/diningPhilosopher.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -517,6 +557,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... readerWriter"
 	@echo "... producerConsumer"
 	@echo "... criticalSection"
@@ -524,7 +565,7 @@ help:
 	@echo "... OsPracticals"
 	@echo "... priorityPreemptive"
 	@echo "... roundRobin"
-	@echo "... edit_cache"
+	@echo "... diningPhilosopher"
 	@echo "... srtf"
 	@echo "... priority"
 	@echo "... Program1"
@@ -555,6 +596,9 @@ help:
 	@echo "... Practical5/readerWriter.o"
 	@echo "... Practical5/readerWriter.i"
 	@echo "... Practical5/readerWriter.s"
+	@echo "... Practical6/diningPhilosopher.o"
+	@echo "... Practical6/diningPhilosopher.i"
+	@echo "... Practical6/diningPhilosopher.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
