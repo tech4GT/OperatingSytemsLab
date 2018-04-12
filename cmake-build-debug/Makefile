@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named priorityPreemptive
+
+# Build rule for target.
+priorityPreemptive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 priorityPreemptive
+.PHONY : priorityPreemptive
+
+# fast build rule for target.
+priorityPreemptive/fast:
+	$(MAKE) -f CMakeFiles/priorityPreemptive.dir/build.make CMakeFiles/priorityPreemptive.dir/build
+.PHONY : priorityPreemptive/fast
+
+#=============================================================================
+# Target rules for targets named roundRobin
+
+# Build rule for target.
+roundRobin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roundRobin
+.PHONY : roundRobin
+
+# fast build rule for target.
+roundRobin/fast:
+	$(MAKE) -f CMakeFiles/roundRobin.dir/build.make CMakeFiles/roundRobin.dir/build
+.PHONY : roundRobin/fast
+
+#=============================================================================
+# Target rules for targets named srtf
+
+# Build rule for target.
+srtf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 srtf
+.PHONY : srtf
+
+# fast build rule for target.
+srtf/fast:
+	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/build
+.PHONY : srtf/fast
+
+#=============================================================================
 # Target rules for targets named OsPracticals
 
 # Build rule for target.
@@ -243,6 +282,87 @@ Practical1/sjfs.c.s:
 	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/Practical1/sjfs.c.s
 .PHONY : Practical1/sjfs.c.s
 
+Practical2/priorityPreemptive.o: Practical2/priorityPreemptive.c.o
+
+.PHONY : Practical2/priorityPreemptive.o
+
+# target to build an object file
+Practical2/priorityPreemptive.c.o:
+	$(MAKE) -f CMakeFiles/priorityPreemptive.dir/build.make CMakeFiles/priorityPreemptive.dir/Practical2/priorityPreemptive.c.o
+.PHONY : Practical2/priorityPreemptive.c.o
+
+Practical2/priorityPreemptive.i: Practical2/priorityPreemptive.c.i
+
+.PHONY : Practical2/priorityPreemptive.i
+
+# target to preprocess a source file
+Practical2/priorityPreemptive.c.i:
+	$(MAKE) -f CMakeFiles/priorityPreemptive.dir/build.make CMakeFiles/priorityPreemptive.dir/Practical2/priorityPreemptive.c.i
+.PHONY : Practical2/priorityPreemptive.c.i
+
+Practical2/priorityPreemptive.s: Practical2/priorityPreemptive.c.s
+
+.PHONY : Practical2/priorityPreemptive.s
+
+# target to generate assembly for a file
+Practical2/priorityPreemptive.c.s:
+	$(MAKE) -f CMakeFiles/priorityPreemptive.dir/build.make CMakeFiles/priorityPreemptive.dir/Practical2/priorityPreemptive.c.s
+.PHONY : Practical2/priorityPreemptive.c.s
+
+Practical2/roundRobin.o: Practical2/roundRobin.c.o
+
+.PHONY : Practical2/roundRobin.o
+
+# target to build an object file
+Practical2/roundRobin.c.o:
+	$(MAKE) -f CMakeFiles/roundRobin.dir/build.make CMakeFiles/roundRobin.dir/Practical2/roundRobin.c.o
+.PHONY : Practical2/roundRobin.c.o
+
+Practical2/roundRobin.i: Practical2/roundRobin.c.i
+
+.PHONY : Practical2/roundRobin.i
+
+# target to preprocess a source file
+Practical2/roundRobin.c.i:
+	$(MAKE) -f CMakeFiles/roundRobin.dir/build.make CMakeFiles/roundRobin.dir/Practical2/roundRobin.c.i
+.PHONY : Practical2/roundRobin.c.i
+
+Practical2/roundRobin.s: Practical2/roundRobin.c.s
+
+.PHONY : Practical2/roundRobin.s
+
+# target to generate assembly for a file
+Practical2/roundRobin.c.s:
+	$(MAKE) -f CMakeFiles/roundRobin.dir/build.make CMakeFiles/roundRobin.dir/Practical2/roundRobin.c.s
+.PHONY : Practical2/roundRobin.c.s
+
+Practical2/srtf.o: Practical2/srtf.c.o
+
+.PHONY : Practical2/srtf.o
+
+# target to build an object file
+Practical2/srtf.c.o:
+	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/Practical2/srtf.c.o
+.PHONY : Practical2/srtf.c.o
+
+Practical2/srtf.i: Practical2/srtf.c.i
+
+.PHONY : Practical2/srtf.i
+
+# target to preprocess a source file
+Practical2/srtf.c.i:
+	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/Practical2/srtf.c.i
+.PHONY : Practical2/srtf.c.i
+
+Practical2/srtf.s: Practical2/srtf.c.s
+
+.PHONY : Practical2/srtf.s
+
+# target to generate assembly for a file
+Practical2/srtf.c.s:
+	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/Practical2/srtf.c.s
+.PHONY : Practical2/srtf.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -277,7 +397,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... priorityPreemptive"
+	@echo "... roundRobin"
 	@echo "... edit_cache"
+	@echo "... srtf"
 	@echo "... OsPracticals"
 	@echo "... sjfs"
 	@echo "... priority"
@@ -291,6 +414,15 @@ help:
 	@echo "... Practical1/sjfs.o"
 	@echo "... Practical1/sjfs.i"
 	@echo "... Practical1/sjfs.s"
+	@echo "... Practical2/priorityPreemptive.o"
+	@echo "... Practical2/priorityPreemptive.i"
+	@echo "... Practical2/priorityPreemptive.s"
+	@echo "... Practical2/roundRobin.o"
+	@echo "... Practical2/roundRobin.i"
+	@echo "... Practical2/roundRobin.s"
+	@echo "... Practical2/srtf.o"
+	@echo "... Practical2/srtf.i"
+	@echo "... Practical2/srtf.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -44,6 +44,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/priorityPreemptive.dir/DependInfo.cmake"
+  "CMakeFiles/roundRobin.dir/DependInfo.cmake"
+  "CMakeFiles/srtf.dir/DependInfo.cmake"
   "CMakeFiles/OsPracticals.dir/DependInfo.cmake"
   "CMakeFiles/sjfs.dir/DependInfo.cmake"
   "CMakeFiles/priority.dir/DependInfo.cmake"

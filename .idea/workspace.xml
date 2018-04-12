@@ -5,7 +5,9 @@
       <config projectName="OsPracticals" targetName="Program1" />
       <config projectName="OsPracticals" targetName="priority" />
       <config projectName="OsPracticals" targetName="sjfs" />
+      <config projectName="OsPracticals" targetName="roundRobin" />
       <config projectName="OsPracticals" targetName="OsPracticals" />
+      <config projectName="OsPracticals" targetName="srtf" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,7 +16,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e4f5f07-4419-4f3c-b681-c55cbd2e9ff2" name="Default" comment="" />
+    <list default="true" id="5e4f5f07-4419-4f3c-b681-c55cbd2e9ff2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical2/roundRobin.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical2/srtf.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/priority.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/priority.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/priority.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/priority.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/priority.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/priority.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/priority.dir/priority.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sjfs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sjfs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OsPracticals.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OsPracticals.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/priority" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/priority" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +58,7 @@
       <file leaf-file-name="fcfs.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical1/fcfs.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
+            <state relative-caret-position="620">
               <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
             </state>
           </provider>
@@ -47,22 +67,46 @@
       <file leaf-file-name="sjfs.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical1/sjfs.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="1260">
               <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="priority.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/priority.c">
+      <file leaf-file-name="priority.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical1/priority.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+            <state relative-caret-position="335">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="srtf.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical2/srtf.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="66" column="1" selection-start-line="51" selection-end-line="66" selection-end-column="1" />
+              <folding>
+                <element signature="e#45#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roundRobin.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practical2/roundRobin.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,6 +117,9 @@
         <option value="$PROJECT_DIR$/fcfs.c" />
         <option value="$PROJECT_DIR$/sjfs.c" />
         <option value="$PROJECT_DIR$/priority.c" />
+        <option value="$PROJECT_DIR$/Practical2/srtf.cpp" />
+        <option value="$PROJECT_DIR$/Practical2/srtf.c" />
+        <option value="$PROJECT_DIR$/Practical2/roundRobin.c" />
       </list>
     </option>
   </component>
@@ -86,6 +133,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -102,6 +150,11 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="OsPracticals" type="cbb8eebc:String" user="OsPracticals" />
               <item name="Practical1" type="cbb8eebc:String" user="Practical1" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="OsPracticals" type="cbb8eebc:String" user="OsPracticals" />
+              <item name="Practical2" type="cbb8eebc:String" user="Practical2" />
             </path>
           </expand>
           <select />
@@ -135,18 +188,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.priority">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="priority" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="OsPracticals" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="OsPracticals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="priority" />
-    <configuration name="Program1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="Program1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="sjfs" />
-    <configuration name="priority" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="priority" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="priority" />
-    <configuration name="sjfs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="sjfs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="sjfs" />
+  <component name="RunManager" selected="Application.srtf">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="roundRobin" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="OsPracticals" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="OsPracticals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="roundRobin" />
+    <configuration name="Program1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="Program1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="roundRobin" />
+    <configuration name="priority" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="priority" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="roundRobin" />
+    <configuration name="roundRobin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="roundRobin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="roundRobin" />
+    <configuration name="sjfs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="sjfs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="srtf" />
+    <configuration name="srtf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="srtf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="srtf" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.OsPracticals" />
       <item itemvalue="Application.priority" />
       <item itemvalue="Application.Program1" />
+      <item itemvalue="Application.roundRobin" />
       <item itemvalue="Application.sjfs" />
+      <item itemvalue="Application.srtf" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -160,35 +217,36 @@
       <option name="presentableId" value="Default" />
       <updated>1523281868146</updated>
       <workItem from="1523281869791" duration="468000" />
-      <workItem from="1523282363406" duration="7326000" />
+      <workItem from="1523282363406" duration="11894000" />
+      <workItem from="1523502541308" duration="3628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7794000" />
+    <option name="totallyTimeSpent" value="15990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14940098" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="CMake" order="7" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948717" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +255,57 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Practical1/priority.c</url>
+          <line>70</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical1/fcfs.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical1/sjfs.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical1/priority.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical2/srtf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="e#45#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -212,20 +320,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hi.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hi.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hi.c" />
+    <entry file="file://$PROJECT_DIR$/hi.c" />
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -242,22 +338,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Practical1/fcfs.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="620">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Practical1/sjfs.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="1260">
           <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/priority.c">
+    <entry file="file://$PROJECT_DIR$/Practical1/priority.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        <state relative-caret-position="335">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical2/srtf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="66" column="1" selection-start-line="51" selection-end-line="66" selection-end-column="1" />
+          <folding>
+            <element signature="e#45#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical2/roundRobin.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
