@@ -44,6 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/producerConsumer.dir/DependInfo.cmake"
   "CMakeFiles/criticalSection.dir/DependInfo.cmake"
   "CMakeFiles/priorityPreemptive.dir/DependInfo.cmake"
   "CMakeFiles/roundRobin.dir/DependInfo.cmake"

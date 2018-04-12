@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named producerConsumer
+
+# Build rule for target.
+producerConsumer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 producerConsumer
+.PHONY : producerConsumer
+
+# fast build rule for target.
+producerConsumer/fast:
+	$(MAKE) -f CMakeFiles/producerConsumer.dir/build.make CMakeFiles/producerConsumer.dir/build
+.PHONY : producerConsumer/fast
+
+#=============================================================================
 # Target rules for targets named criticalSection
 
 # Build rule for target.
@@ -403,6 +416,33 @@ Practical3/criticalSection.c.s:
 	$(MAKE) -f CMakeFiles/criticalSection.dir/build.make CMakeFiles/criticalSection.dir/Practical3/criticalSection.c.s
 .PHONY : Practical3/criticalSection.c.s
 
+Practical4/producerConsumer.o: Practical4/producerConsumer.c.o
+
+.PHONY : Practical4/producerConsumer.o
+
+# target to build an object file
+Practical4/producerConsumer.c.o:
+	$(MAKE) -f CMakeFiles/producerConsumer.dir/build.make CMakeFiles/producerConsumer.dir/Practical4/producerConsumer.c.o
+.PHONY : Practical4/producerConsumer.c.o
+
+Practical4/producerConsumer.i: Practical4/producerConsumer.c.i
+
+.PHONY : Practical4/producerConsumer.i
+
+# target to preprocess a source file
+Practical4/producerConsumer.c.i:
+	$(MAKE) -f CMakeFiles/producerConsumer.dir/build.make CMakeFiles/producerConsumer.dir/Practical4/producerConsumer.c.i
+.PHONY : Practical4/producerConsumer.c.i
+
+Practical4/producerConsumer.s: Practical4/producerConsumer.c.s
+
+.PHONY : Practical4/producerConsumer.s
+
+# target to generate assembly for a file
+Practical4/producerConsumer.c.s:
+	$(MAKE) -f CMakeFiles/producerConsumer.dir/build.make CMakeFiles/producerConsumer.dir/Practical4/producerConsumer.c.s
+.PHONY : Practical4/producerConsumer.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -436,6 +476,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... producerConsumer"
 	@echo "... rebuild_cache"
 	@echo "... criticalSection"
 	@echo "... priorityPreemptive"
@@ -467,6 +508,9 @@ help:
 	@echo "... Practical3/criticalSection.o"
 	@echo "... Practical3/criticalSection.i"
 	@echo "... Practical3/criticalSection.s"
+	@echo "... Practical4/producerConsumer.o"
+	@echo "... Practical4/producerConsumer.i"
+	@echo "... Practical4/producerConsumer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

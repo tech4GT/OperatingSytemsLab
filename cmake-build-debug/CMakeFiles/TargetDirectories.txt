@@ -1,3 +1,4 @@
+/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/producerConsumer.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/criticalSection.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/priorityPreemptive.dir
