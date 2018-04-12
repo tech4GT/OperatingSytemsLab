@@ -53,7 +53,7 @@ void *consumer() {
 void main() {
     sem_init(mutex, 0, 1);
     sem_init(full, 0, BUFFER_SIZE);
-    sem_init(mutex, 0, 0);
+    sem_init(embty, 0, 0);
     pthread_t prodThread, consThread;
     pthread_create(&prodThread, NULL, producer, NULL);
     pthread_create(&consThread, NULL, consumer, NULL);

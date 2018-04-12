@@ -11,6 +11,7 @@
       <config projectName="OsPracticals" targetName="OsPracticals" />
       <config projectName="OsPracticals" targetName="criticalSection" />
       <config projectName="OsPracticals" targetName="srtf" />
+      <config projectName="OsPracticals" targetName="readerWriter" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -20,9 +21,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e4f5f07-4419-4f3c-b681-c55cbd2e9ff2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Practical4/producerConsumer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical5/readerWriter.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practical4/producerConsumer.c" beforeDir="false" afterPath="$PROJECT_DIR$/Practical4/producerConsumer.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -47,17 +49,29 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="160">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="producerConsumer.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readerWriter.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practical5/readerWriter.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+              <folding>
+                <element signature="e#45#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="producerConsumer.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical4/producerConsumer.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="398">
+              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
               <folding>
                 <element signature="e#45#63#0" expanded="true" />
               </folding>
@@ -85,6 +99,7 @@
         <option value="$PROJECT_DIR$/Practical2/priorityPreemptive.c" />
         <option value="$PROJECT_DIR$/Practical3/criticalSection.c" />
         <option value="$PROJECT_DIR$/Practical4/producerConsumer.c" />
+        <option value="$PROJECT_DIR$/Practical5/readerWriter.c" />
       </list>
     </option>
   </component>
@@ -114,12 +129,12 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="OsPracticals" type="cbb8eebc:String" user="OsPracticals" />
-              <item name="Practical3" type="cbb8eebc:String" user="Practical3" />
+              <item name="Practical4" type="cbb8eebc:String" user="Practical4" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="OsPracticals" type="cbb8eebc:String" user="OsPracticals" />
-              <item name="Practical4" type="cbb8eebc:String" user="Practical4" />
+              <item name="Practical5" type="cbb8eebc:String" user="Practical5" />
             </path>
           </expand>
           <select />
@@ -153,14 +168,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.producerConsumer">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="producerConsumer" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="OsPracticals" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="OsPracticals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="producerConsumer" />
-    <configuration name="Program1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="Program1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="roundRobin" />
-    <configuration name="criticalSection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="criticalSection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="producerConsumer" />
-    <configuration name="priority" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="priority" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="producerConsumer" />
-    <configuration name="priorityPreemptive" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="priorityPreemptive" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="producerConsumer" />
-    <configuration name="producerConsumer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="producerConsumer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="producerConsumer" />
+  <component name="RunManager" selected="Application.readerWriter">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="readerWriter" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="OsPracticals" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="OsPracticals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="readerWriter" />
+    <configuration name="Program1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="Program1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="readerWriter" />
+    <configuration name="criticalSection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="criticalSection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="readerWriter" />
+    <configuration name="priority" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="priority" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="readerWriter" />
+    <configuration name="priorityPreemptive" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="priorityPreemptive" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="readerWriter" />
+    <configuration name="producerConsumer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="producerConsumer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="readerWriter" />
+    <configuration name="readerWriter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="readerWriter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="readerWriter" />
     <configuration name="roundRobin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="roundRobin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="roundRobin" />
     <configuration name="sjfs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="sjfs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="srtf" />
     <configuration name="srtf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OsPracticals" TARGET_NAME="srtf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OsPracticals" RUN_TARGET_NAME="srtf" />
@@ -172,6 +188,7 @@
       <item itemvalue="Application.priorityPreemptive" />
       <item itemvalue="Application.producerConsumer" />
       <item itemvalue="Application.Program1" />
+      <item itemvalue="Application.readerWriter" />
       <item itemvalue="Application.roundRobin" />
       <item itemvalue="Application.sjfs" />
       <item itemvalue="Application.srtf" />
@@ -189,24 +206,24 @@
       <updated>1523281868146</updated>
       <workItem from="1523281869791" duration="468000" />
       <workItem from="1523282363406" duration="11894000" />
-      <workItem from="1523502541308" duration="11362000" />
+      <workItem from="1523502541308" duration="12727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23724000" />
+    <option name="totallyTimeSpent" value="25089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14940098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14940098" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32948717" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -351,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practical3/criticalSection.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="614">
@@ -368,10 +378,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Practical4/producerConsumer.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="398">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="e#45#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical5/readerWriter.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding>
             <element signature="e#45#63#0" expanded="true" />
           </folding>

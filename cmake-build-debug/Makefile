@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named readerWriter
+
+# Build rule for target.
+readerWriter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 readerWriter
+.PHONY : readerWriter
+
+# fast build rule for target.
+readerWriter/fast:
+	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/build
+.PHONY : readerWriter/fast
+
+#=============================================================================
 # Target rules for targets named producerConsumer
 
 # Build rule for target.
@@ -135,6 +148,32 @@ criticalSection: cmake_check_build_system
 criticalSection/fast:
 	$(MAKE) -f CMakeFiles/criticalSection.dir/build.make CMakeFiles/criticalSection.dir/build
 .PHONY : criticalSection/fast
+
+#=============================================================================
+# Target rules for targets named sjfs
+
+# Build rule for target.
+sjfs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sjfs
+.PHONY : sjfs
+
+# fast build rule for target.
+sjfs/fast:
+	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/build
+.PHONY : sjfs/fast
+
+#=============================================================================
+# Target rules for targets named OsPracticals
+
+# Build rule for target.
+OsPracticals: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OsPracticals
+.PHONY : OsPracticals
+
+# fast build rule for target.
+OsPracticals/fast:
+	$(MAKE) -f CMakeFiles/OsPracticals.dir/build.make CMakeFiles/OsPracticals.dir/build
+.PHONY : OsPracticals/fast
 
 #=============================================================================
 # Target rules for targets named priorityPreemptive
@@ -174,32 +213,6 @@ srtf: cmake_check_build_system
 srtf/fast:
 	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/build
 .PHONY : srtf/fast
-
-#=============================================================================
-# Target rules for targets named OsPracticals
-
-# Build rule for target.
-OsPracticals: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OsPracticals
-.PHONY : OsPracticals
-
-# fast build rule for target.
-OsPracticals/fast:
-	$(MAKE) -f CMakeFiles/OsPracticals.dir/build.make CMakeFiles/OsPracticals.dir/build
-.PHONY : OsPracticals/fast
-
-#=============================================================================
-# Target rules for targets named sjfs
-
-# Build rule for target.
-sjfs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sjfs
-.PHONY : sjfs
-
-# fast build rule for target.
-sjfs/fast:
-	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/build
-.PHONY : sjfs/fast
 
 #=============================================================================
 # Target rules for targets named priority
@@ -443,6 +456,33 @@ Practical4/producerConsumer.c.s:
 	$(MAKE) -f CMakeFiles/producerConsumer.dir/build.make CMakeFiles/producerConsumer.dir/Practical4/producerConsumer.c.s
 .PHONY : Practical4/producerConsumer.c.s
 
+Practical5/readerWriter.o: Practical5/readerWriter.c.o
+
+.PHONY : Practical5/readerWriter.o
+
+# target to build an object file
+Practical5/readerWriter.c.o:
+	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/Practical5/readerWriter.c.o
+.PHONY : Practical5/readerWriter.c.o
+
+Practical5/readerWriter.i: Practical5/readerWriter.c.i
+
+.PHONY : Practical5/readerWriter.i
+
+# target to preprocess a source file
+Practical5/readerWriter.c.i:
+	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/Practical5/readerWriter.c.i
+.PHONY : Practical5/readerWriter.c.i
+
+Practical5/readerWriter.s: Practical5/readerWriter.c.s
+
+.PHONY : Practical5/readerWriter.s
+
+# target to generate assembly for a file
+Practical5/readerWriter.c.s:
+	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/Practical5/readerWriter.c.s
+.PHONY : Practical5/readerWriter.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -476,15 +516,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... producerConsumer"
 	@echo "... rebuild_cache"
+	@echo "... readerWriter"
+	@echo "... producerConsumer"
 	@echo "... criticalSection"
+	@echo "... sjfs"
+	@echo "... OsPracticals"
 	@echo "... priorityPreemptive"
 	@echo "... roundRobin"
 	@echo "... edit_cache"
 	@echo "... srtf"
-	@echo "... OsPracticals"
-	@echo "... sjfs"
 	@echo "... priority"
 	@echo "... Program1"
 	@echo "... Practical1/fcfs.o"
@@ -511,6 +552,9 @@ help:
 	@echo "... Practical4/producerConsumer.o"
 	@echo "... Practical4/producerConsumer.i"
 	@echo "... Practical4/producerConsumer.s"
+	@echo "... Practical5/readerWriter.o"
+	@echo "... Practical5/readerWriter.i"
+	@echo "... Practical5/readerWriter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

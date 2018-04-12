@@ -1,11 +1,12 @@
-/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/producerConsumer.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/readerWriter.dir
+/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/producerConsumer.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/criticalSection.dir
+/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/sjfs.dir
+/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/OsPracticals.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/priorityPreemptive.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/roundRobin.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/srtf.dir
-/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/OsPracticals.dir
-/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/sjfs.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/priority.dir
 /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles/Program1.dir

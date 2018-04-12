@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /Users/mac/Desktop/OsPracticals
 CMAKE_BINARY_DIR = /Users/mac/Desktop/OsPracticals/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/readerWriter.dir
+
+# All Build rule for target.
+CMakeFiles/readerWriter.dir/all:
+	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/depend
+	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target readerWriter"
+.PHONY : CMakeFiles/readerWriter.dir/all
+
+# Include target in all.
+all: CMakeFiles/readerWriter.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/readerWriter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/readerWriter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/readerWriter.dir/rule
+
+# Convenience name for target.
+readerWriter: CMakeFiles/readerWriter.dir/rule
+
+.PHONY : readerWriter
+
+# clean rule for target.
+CMakeFiles/readerWriter.dir/clean:
+	$(MAKE) -f CMakeFiles/readerWriter.dir/build.make CMakeFiles/readerWriter.dir/clean
+.PHONY : CMakeFiles/readerWriter.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/readerWriter.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/producerConsumer.dir
 
 # All Build rule for target.
@@ -134,6 +171,80 @@ clean: CMakeFiles/criticalSection.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sjfs.dir
+
+# All Build rule for target.
+CMakeFiles/sjfs.dir/all:
+	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/depend
+	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target sjfs"
+.PHONY : CMakeFiles/sjfs.dir/all
+
+# Include target in all.
+all: CMakeFiles/sjfs.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sjfs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sjfs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sjfs.dir/rule
+
+# Convenience name for target.
+sjfs: CMakeFiles/sjfs.dir/rule
+
+.PHONY : sjfs
+
+# clean rule for target.
+CMakeFiles/sjfs.dir/clean:
+	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/clean
+.PHONY : CMakeFiles/sjfs.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sjfs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/OsPracticals.dir
+
+# All Build rule for target.
+CMakeFiles/OsPracticals.dir/all:
+	$(MAKE) -f CMakeFiles/OsPracticals.dir/build.make CMakeFiles/OsPracticals.dir/depend
+	$(MAKE) -f CMakeFiles/OsPracticals.dir/build.make CMakeFiles/OsPracticals.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target OsPracticals"
+.PHONY : CMakeFiles/OsPracticals.dir/all
+
+# Include target in all.
+all: CMakeFiles/OsPracticals.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OsPracticals.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OsPracticals.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/OsPracticals.dir/rule
+
+# Convenience name for target.
+OsPracticals: CMakeFiles/OsPracticals.dir/rule
+
+.PHONY : OsPracticals
+
+# clean rule for target.
+CMakeFiles/OsPracticals.dir/clean:
+	$(MAKE) -f CMakeFiles/OsPracticals.dir/build.make CMakeFiles/OsPracticals.dir/clean
+.PHONY : CMakeFiles/OsPracticals.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/OsPracticals.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/priorityPreemptive.dir
 
 # All Build rule for target.
@@ -177,7 +288,7 @@ clean: CMakeFiles/priorityPreemptive.dir/clean
 CMakeFiles/roundRobin.dir/all:
 	$(MAKE) -f CMakeFiles/roundRobin.dir/build.make CMakeFiles/roundRobin.dir/depend
 	$(MAKE) -f CMakeFiles/roundRobin.dir/build.make CMakeFiles/roundRobin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target roundRobin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target roundRobin"
 .PHONY : CMakeFiles/roundRobin.dir/all
 
 # Include target in all.
@@ -214,7 +325,7 @@ clean: CMakeFiles/roundRobin.dir/clean
 CMakeFiles/srtf.dir/all:
 	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/depend
 	$(MAKE) -f CMakeFiles/srtf.dir/build.make CMakeFiles/srtf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target srtf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target srtf"
 .PHONY : CMakeFiles/srtf.dir/all
 
 # Include target in all.
@@ -241,80 +352,6 @@ CMakeFiles/srtf.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/srtf.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/OsPracticals.dir
-
-# All Build rule for target.
-CMakeFiles/OsPracticals.dir/all:
-	$(MAKE) -f CMakeFiles/OsPracticals.dir/build.make CMakeFiles/OsPracticals.dir/depend
-	$(MAKE) -f CMakeFiles/OsPracticals.dir/build.make CMakeFiles/OsPracticals.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target OsPracticals"
-.PHONY : CMakeFiles/OsPracticals.dir/all
-
-# Include target in all.
-all: CMakeFiles/OsPracticals.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/OsPracticals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OsPracticals.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/OsPracticals.dir/rule
-
-# Convenience name for target.
-OsPracticals: CMakeFiles/OsPracticals.dir/rule
-
-.PHONY : OsPracticals
-
-# clean rule for target.
-CMakeFiles/OsPracticals.dir/clean:
-	$(MAKE) -f CMakeFiles/OsPracticals.dir/build.make CMakeFiles/OsPracticals.dir/clean
-.PHONY : CMakeFiles/OsPracticals.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/OsPracticals.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/sjfs.dir
-
-# All Build rule for target.
-CMakeFiles/sjfs.dir/all:
-	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/depend
-	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target sjfs"
-.PHONY : CMakeFiles/sjfs.dir/all
-
-# Include target in all.
-all: CMakeFiles/sjfs.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/sjfs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sjfs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/OsPracticals/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/sjfs.dir/rule
-
-# Convenience name for target.
-sjfs: CMakeFiles/sjfs.dir/rule
-
-.PHONY : sjfs
-
-# clean rule for target.
-CMakeFiles/sjfs.dir/clean:
-	$(MAKE) -f CMakeFiles/sjfs.dir/build.make CMakeFiles/sjfs.dir/clean
-.PHONY : CMakeFiles/sjfs.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/sjfs.dir/clean
 
 .PHONY : clean
 

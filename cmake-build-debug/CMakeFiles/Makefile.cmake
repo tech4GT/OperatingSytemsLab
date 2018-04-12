@@ -44,13 +44,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/readerWriter.dir/DependInfo.cmake"
   "CMakeFiles/producerConsumer.dir/DependInfo.cmake"
   "CMakeFiles/criticalSection.dir/DependInfo.cmake"
+  "CMakeFiles/sjfs.dir/DependInfo.cmake"
+  "CMakeFiles/OsPracticals.dir/DependInfo.cmake"
   "CMakeFiles/priorityPreemptive.dir/DependInfo.cmake"
   "CMakeFiles/roundRobin.dir/DependInfo.cmake"
   "CMakeFiles/srtf.dir/DependInfo.cmake"
-  "CMakeFiles/OsPracticals.dir/DependInfo.cmake"
-  "CMakeFiles/sjfs.dir/DependInfo.cmake"
   "CMakeFiles/priority.dir/DependInfo.cmake"
   "CMakeFiles/Program1.dir/DependInfo.cmake"
   )
